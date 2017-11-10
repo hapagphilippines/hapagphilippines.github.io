@@ -160,4 +160,7 @@ p {
   #team .two.column.row:nth-of-type(2) .column {
     margin-bottom: 32px; }
 
+.icon.check {
+  margin: 0 !important; }
+
 /*# sourceMappingURL=main.css.map */
