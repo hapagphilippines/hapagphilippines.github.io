@@ -157,5 +157,7 @@ p {
   @media (min-width: 768px) {
     #team img {
       margin-right: 14px; } }
+  #team .two.column.row:nth-of-type(2) .column {
+    margin-bottom: 32px; }
 
 /*# sourceMappingURL=main.css.map */

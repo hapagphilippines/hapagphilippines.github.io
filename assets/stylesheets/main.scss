@@ -210,4 +210,8 @@ p {
             margin-right: 14px;
         }
     }
+
+    .two.column.row:nth-of-type(2) .column {
+        margin-bottom: 32px;
+    }
 }
