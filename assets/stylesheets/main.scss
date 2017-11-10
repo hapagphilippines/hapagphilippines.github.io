@@ -131,6 +131,43 @@ p {
     }
 }
 
+@media (max-width: 768px) {
+    .row {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      /* optional */
+      -webkit-box-align: start;
+      -moz-box-align: start;
+      -ms-flex-align: start;
+      -webkit-align-items: flex-start;
+      align-items: flex-start;
+    }
+  
+    .row .column.first {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      -ms-flex-order: 2;
+      -webkit-order: 2;
+      order: 2;
+    }
+  
+    .row .column.second {
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      -ms-flex-order: 1;
+      -webkit-order: 1;
+      order: 1;
+    }
+  }
+
 #about {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -140,28 +177,37 @@ p {
     }
 }
 
+@media (min-width: 768px) {
+    #get-involved {
+
+        position: relative;
+
+        .column {
+            position: relative;
+            min-height: 100%;
+        }
+        #message {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+}
+
 #get-involved {
     margin-top: 100px;
     margin-bottom: 100px;
-    position: relative;
     p:first-of-type {
         margin-bottom: 4px !important;
     }
 
-    .column {
-        position: relative;
-        min-height: 100%;
-    }
-    #message {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 #team {
     margin-top: 100px;
     margin-bottom: 100px;
-    img {
-        margin-right: 14px;
+    @media (min-width: 768px) {
+        img {
+            margin-right: 14px;
+        }
     }
 }
