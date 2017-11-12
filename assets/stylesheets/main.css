@@ -58,7 +58,7 @@ p {
   min-height: 104vh;
   font-family: 'Raleway'; }
   #splash h1 {
-    margin-top: 50px;
+    margin-top: 65px;
     font-family: 'Raleway';
     font-weight: 900;
     text-align: center;
@@ -72,8 +72,7 @@ p {
     font-family: 'Source Sans Pro';
     text-align: justify;
     text-align-last: center;
-    -moz-text-align-last: center;
-    letter-spacing: 10px; }
+    -moz-text-align-last: center; }
   #splash .highlight {
     background-color: #e1963a;
     padding-left: 10px;
