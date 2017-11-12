@@ -75,8 +75,8 @@ p {
     -moz-text-align-last: center; }
   #splash .highlight {
     background-color: #e1963a;
-    padding-left: 10px;
-    padding-right: 0;
+    padding-left: 4px;
+    padding-right: 4px;
     border-radius: 2px; }
   #splash #menu {
     font-family: 'Raleway';
