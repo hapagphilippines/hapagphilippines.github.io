@@ -74,9 +74,13 @@ $(document).ready(function() {
 		}
 	});
 
-    $('#menu').visibility({
-        onTopVisible: function(){
-            $('#navbar').transition('fade');
-        }
+    $('#break').visibility({
+        onTopPassedReverse: function(){
+            $('#navbar').transition('fade out');
+        },
+        onTopPassed: function() {
+            $('#navbar').transition('fade in');
+        },
+        once: false
     });
 });

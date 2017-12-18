@@ -3,17 +3,21 @@
 $primary-color: #e1963a;
 
 html, body {
-    width: 100%;
-    height: 100%;
+    // width: 100%;
+    // height: 100%;
     margin: 0px;
     padding: 0px;
     background-color: #f6f6f6;
-    overflow-x: hidden; 
 }
 
 #navbar {
     background-color: #e2983c;
     display: none;
+    .item {
+        font-family: 'Raleway';
+        color: #fff;
+        letter-spacing: 2px;
+    }
 }
 
 
