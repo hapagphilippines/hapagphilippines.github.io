@@ -7,6 +7,10 @@ html, body {
   background-color: #f6f6f6;
   overflow-x: hidden; }
 
+#navbar {
+  background-color: #e2983c;
+  display: none; }
+
 .bar-container {
   height: 10px;
   margin-bottom: 16px; }
